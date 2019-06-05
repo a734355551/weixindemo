@@ -40,14 +40,17 @@ public class RegistLoginController extends BasicController {
 		if (!usernameIsExist) {
 			user.setNickname(user.getUsername());
 			user.setPassword(MD5Utils.getMD5Str(user.getPassword()));
+			//粉丝数量
 			user.setFansCounts(0);
+			//喜欢数量
 			user.setReceiveLikeCounts(0);
+			//关注数量
 			user.setFollowCounts(0);
 			userService.saveUser(user);
 		} else {
 			return IMoocJSONResult.errorMsg("用户名已经存在，请换一个再试");
 		}
-		
+		//把密码设置为空，为了安全起见
 		user.setPassword("");
 		
 //		String uniqueToken = UUID.randomUUID().toString();
@@ -100,7 +103,7 @@ public class RegistLoginController extends BasicController {
 	}
 	
 	@ApiOperation(value="用户注销", notes="用户注销的接口")
-	@ApiImplicitParam(name="userId", value="用户id", required=true, 
+	@ApiImplicitParam(name="userId", value="用户id", required=true,
 						dataType="String", paramType="query")
 	@PostMapping("/logout")
 	public IMoocJSONResult logout(String userId) throws Exception {
