@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee33bec2-3a47-42c0-8d60-a5010302624c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Videos/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
@@ -32,40 +29,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/BgmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="86" column="24" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="232">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/BgmService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4152">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Videos/api/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -108,9 +96,6 @@
         <option value="$PROJECT_DIR$/Videos/pojo/src/main/java/com/video/pojo/Bgm.java" />
         <option value="$PROJECT_DIR$/Videos/mapper/src/main/java/com/video/mapper/BgmMapper.java" />
         <option value="$PROJECT_DIR$/Videos/mapper/src/main/java/com/video/mapper/CommentsMapper.java" />
-        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/BgmService.java" />
-        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/VideoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java" />
         <option value="$PROJECT_DIR$/Videos/common/src/main/java/org/n3r/idworker/Sid.java" />
         <option value="$PROJECT_DIR$/Videos/common/src/main/java/idworker/utils/Ip.java" />
         <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/Swagger2.java" />
@@ -126,6 +111,10 @@
         <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/UserService.java" />
         <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/BgmService.java" />
+        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/BgmController.java" />
       </list>
     </option>
   </component>
@@ -176,11 +165,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="853" />
-    <option name="y" value="10" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="415" />
+    <option name="y" value="103" />
+    <option name="width" value="1111" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -189,7 +178,238 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixindemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixindemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -204,7 +424,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Videos/api/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,11 +437,11 @@
       <recent name="com.imooc.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\weixindemo\Videos\service\src\main\java\com\imooc\service\impl" />
+      <recent name="F:\github\weixindemo\Videos\service\src\main\java\com\imocc\service" />
       <recent name="F:\github\weixindemo\Videos\api\src\main\resources" />
       <recent name="F:\github\weixindemo\Videos\api\src\main\java\com\imooc\controller" />
       <recent name="F:\github\weixindemo\Videos\common\src\main\java\org\n3r\idworker\utils" />
-      <recent name="F:\github\weixindemo\Videos\common\src\main\java\org\n3r\idworker\strategy" />
-      <recent name="F:\github\weixindemo\Videos\common\src\main\java\org\n3r\idworker" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,18 +532,18 @@
       <workItem from="1559657970814" duration="18171000" />
       <workItem from="1559787128026" duration="10805000" />
       <workItem from="1560132183240" duration="3525000" />
-      <workItem from="1560138349068" duration="1130000" />
+      <workItem from="1560138349068" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55853000" />
+    <option name="totallyTimeSpent" value="58299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="853" y="10" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" weight="0.202407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.3192964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,12 +554,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40044993" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39198217" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2992126" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.298441" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="11" />
@@ -367,14 +587,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Videos/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Videos/pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -439,9 +651,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/BgmService.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/VideoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/FFMpegTest.java" />
     <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/org/n3r/idworker/Sid.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,23 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4152">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Videos/api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -638,6 +830,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imocc/service/BgmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/BgmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
