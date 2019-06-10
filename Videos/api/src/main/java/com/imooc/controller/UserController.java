@@ -2,12 +2,14 @@ package com.imooc.controller;
 
 import com.imocc.service.UserService;
 import com.imooc.pojo.Users;
+import com.imooc.pojo.vo.UsersVO;
 import com.imooc.utils.IMoocJSONResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -78,5 +80,19 @@ public class UserController extends BasicController {
 		userService.updateUserInfo(users);
 		return IMoocJSONResult.ok(uploadPathDB);
 	}
-	
+
+	@ApiOperation(value="查询用户信息", notes="查询用户信息的接口")
+	@ApiImplicitParam(name="userId", value="用户id", required=true,
+			dataType="String", paramType="query")
+	@PostMapping("/query")
+	public IMoocJSONResult query(String userId) throws Exception {
+
+		if(StringUtils.isBlank(userId)){
+			return IMoocJSONResult.errorMsg("用户Id不能为空");
+		}
+		Users userInfo = userService.queryUserInfo(userId);
+		UsersVO usersVO = new UsersVO();
+		BeanUtils.copyProperties(userInfo,usersVO);
+		return IMoocJSONResult.ok(usersVO);
+	}
 }

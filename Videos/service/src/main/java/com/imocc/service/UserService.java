@@ -27,4 +27,12 @@ public interface UserService {
 	 * @return void
 	 */
 	public void updateUserInfo(Users user);
+
+	/**
+	 * 查询用户信息
+	 * @author fengzhenting
+	 * @date 2019/6/10 11:31
+	 * @return
+	 */
+	public Users queryUserInfo(String userId);
 }
