@@ -70,6 +70,7 @@ public class RegistLoginController extends BasicController {
 		redis.set(USER_REDIS_SESSION + ":" + userModel.getId(), uniqueToken, 1000 * 60 * 30);
 		
 		UsersVO userVO = new UsersVO();
+		//拷贝
 		BeanUtils.copyProperties(userModel, userVO);
 		userVO.setUserToken(uniqueToken);
 		return userVO;

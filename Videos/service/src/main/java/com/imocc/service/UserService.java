@@ -19,4 +19,12 @@ public interface UserService {
 	 * @Description: 用户登录，根据用户名和密码查询用户
 	 */
 	public Users queryUserForLogin(String username, String password);
+
+	/**
+	 * 用户修改信息
+	 * @author fengzhenting
+	 * @date 2019/6/6 17:22
+	 * @return void
+	 */
+	public void updateUserInfo(Users user);
 }
