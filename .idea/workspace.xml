@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee33bec2-3a47-42c0-8d60-a5010302624c" name="Default Changelist" comment="" />
+    <list default="true" id="ee33bec2-3a47-42c0-8d60-a5010302624c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Videos/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/Videos/service/target/" />
@@ -26,11 +29,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="108">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/FFMpegTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/MergeVideoMp3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -95,9 +119,11 @@
         <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/VideoServiceImpl.java" />
         <option value="$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java" />
         <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/BgmController.java" />
-        <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/library/book/mapper/LoginDao.java" />
         <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/mapper/LoginDao.java" />
+        <option value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/FFMpegTest.java" />
+        <option value="$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/MergeVideoMp3.java" />
       </list>
     </option>
   </component>
@@ -148,11 +174,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1233" />
-    <option name="height" value="1037" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="672" />
+    <option name="y" value="28" />
+    <option name="width" value="1519" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -162,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,8 +418,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,9 +433,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Videos/api/src/main/java/com/imooc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Videos/api/src/main/java/com/library/book" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -420,11 +447,11 @@
       <recent name="com.imooc.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\weixindemo\Videos\common\src\main\java\com\imooc\utils" />
       <recent name="F:\github\weixindemo\Videos\api\src\main\java\com\library\book" />
       <recent name="F:\github\weixindemo\Videos\service\src\main\java\com\imooc\service\impl" />
       <recent name="F:\github\weixindemo\Videos\service\src\main\java\com\imocc\service" />
       <recent name="F:\github\weixindemo\Videos\api\src\main\resources" />
-      <recent name="F:\github\weixindemo\Videos\api\src\main\java\com\imooc\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,9 +466,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MergeVideoMp3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FFMpegTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.utils.FFMpegTest" />
+      <module name="common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeVideoMp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.utils.MergeVideoMp3" />
+      <module name="common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,6 +547,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeVideoMp3" />
+        <item itemvalue="Application.FFMpegTest" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -515,18 +572,19 @@
       <workItem from="1559657970814" duration="18171000" />
       <workItem from="1559787128026" duration="10805000" />
       <workItem from="1560132183240" duration="3525000" />
-      <workItem from="1560138349068" duration="11260000" />
+      <workItem from="1560138349068" duration="13127000" />
+      <workItem from="1560410493505" duration="3407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65983000" />
+    <option name="totallyTimeSpent" value="71257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="242" y="85" width="1519" height="1029" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.36886993" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.19808088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,7 +594,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33983928" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39198217" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,10 +627,16 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>file</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com.video.utils/MD5Utils.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/mapper/src/main/java/com/video/mapper/BgmMapper.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/mapper/src/main/java/com/video/mapper/CommentsMapper.java" />
     <entry file="file://$PROJECT_DIR$/Videos/pojo/src/main/java/com/video/pojo/Bgm.java" />
     <entry file="file://$PROJECT_DIR$/Videos/api/src/main/resources/com/video/mapper/BgmMapper.xml" />
     <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/MyMapper.java">
@@ -612,7 +676,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/FFMpegTest.java" />
     <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/org/n3r/idworker/Sid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -749,16 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/RegistLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Videos/pojo/src/main/java/com/imooc/pojo/vo/UsersVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2136">
@@ -832,13 +885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/pojo/Admin.java" />
     <entry file="file://$PROJECT_DIR$/Videos/service/src/main/java/com/imooc/service/impl/BgmServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -849,27 +896,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/mapper/LoginDao.java">
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/mapper/LoginDao.java" />
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/mapper/LoginDao.xml" />
+    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/RegistLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="576">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/library/admin/mapper/LoginDao.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="164">
+          <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Videos/api/src/main/java/com/imooc/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="381" column="42" lean-forward="true" selection-start-line="381" selection-start-column="42" selection-end-line="381" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/FFMpegTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videos/common/src/main/java/com/imooc/utils/MergeVideoMp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>

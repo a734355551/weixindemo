@@ -27,17 +27,17 @@ public class VideoController extends BasicController {
 	@ApiOperation(value="上传视频", notes="上传视频的接口")
 	@ApiImplicitParams({
 			@ApiImplicitParam(name="userId", value="用户id", required=true,
-					dataType="String", paramType="query"),
+					dataType="String", paramType="form"),
 			@ApiImplicitParam(name="bgmId", value="背景音乐id",
-					dataType="String", paramType="query"),
+					dataType="String", paramType="form"),
 			@ApiImplicitParam(name="videoSeconds", value="背景音乐播放长度",
-					dataType="String", paramType="query"),
+					dataType="String", paramType="form"),
 			@ApiImplicitParam(name="videoWidth", value="视频宽度",
-					dataType="String", paramType="query"),
+					dataType="String", paramType="form"),
 			@ApiImplicitParam(name="videoHeight", value="视频高度",
-					dataType="String", paramType="query"),
+					dataType="String", paramType="form"),
 			@ApiImplicitParam(name="desc", value="视频描述",
-					dataType="String", paramType="query")
+					dataType="String", paramType="form")
 	})
 	@PostMapping(value = "/upload",headers = "content-type=multipart/form-data")
 	public IMoocJSONResult upload(String userId,
