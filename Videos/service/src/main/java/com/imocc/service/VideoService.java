@@ -1,10 +1,10 @@
 package com.imocc.service;
 
-import java.util.List;
-
 import com.imooc.pojo.Comments;
 import com.imooc.pojo.Videos;
 import com.imooc.utils.PagedResult;
+
+import java.util.List;
 
 public interface VideoService {
 	
@@ -21,9 +21,9 @@ public interface VideoService {
 	/**
 	 * @Description: 分页查询视频列表
 	 */
-	public PagedResult getAllVideos(Videos video, Integer isSaveRecord,
-                                    Integer page, Integer pageSize);
-	
+	/*public PagedResult getAllVideos(Videos video, Integer isSaveRecord,
+                                    Integer page, Integer pageSize);*/
+	public PagedResult getAllVideos(Integer page, Integer pageSize);
 	/**
 	 * @Description: 查询我喜欢的视频列表
 	 */

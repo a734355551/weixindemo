@@ -5,7 +5,6 @@ import com.github.pagehelper.PageInfo;
 import com.imocc.service.VideoService;
 import com.imooc.mapper.*;
 import com.imooc.pojo.Comments;
-import com.imooc.pojo.SearchRecords;
 import com.imooc.pojo.UsersLikeVideos;
 import com.imooc.pojo.Videos;
 import com.imooc.pojo.vo.CommentsVO;
@@ -73,10 +72,11 @@ public class VideoServiceImpl implements VideoService {
 
 	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
-	public PagedResult getAllVideos(Videos video, Integer isSaveRecord,
-			 Integer page, Integer pageSize) {
+	/*public PagedResult getAllVideos(Videos video, Integer isSaveRecord,
+			 Integer page, Integer pageSize)*/
+	public PagedResult getAllVideos(Integer page, Integer pageSize){
 		
-		// 保存热搜词
+	/*	// 保存热搜词
 		String desc = video.getVideoDesc();
 		String userId = video.getUserId();
 		if (isSaveRecord != null && isSaveRecord == 1) {
@@ -86,12 +86,14 @@ public class VideoServiceImpl implements VideoService {
 			record.setContent(desc);
 			searchRecordsMapper.insert(record);
 		}
-		
+		*/
 		PageHelper.startPage(page, pageSize);
-		List<VideosVO> list = videosMapperCustom.queryAllVideos(desc, userId);
-		
+		//List<VideosVO> list = videosMapperCustom.queryAllVideos(desc, userId);
+		List<VideosVO> list = videosMapperCustom.queryAllVideos();
 		PageInfo<VideosVO> pageList = new PageInfo<>(list);
-		
+
+		//自定义返回包装类  pageList 太多
+		//PagedResult  为了和后期后台得jqGuard保持一致
 		PagedResult pagedResult = new PagedResult();
 		pagedResult.setPage(page);
 		pagedResult.setTotal(pageList.getPages());
