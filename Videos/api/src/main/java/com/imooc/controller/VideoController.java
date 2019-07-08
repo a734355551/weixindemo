@@ -13,9 +13,7 @@ import io.swagger.annotations.*;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -203,14 +201,35 @@ public class VideoController extends BasicController {
 	}
 
 
-
+	/**
+	 * 分页查询或者搜索视屏列表
+	 * @author fengzhenting
+	 * @date 2019/7/3 22:48
+	 * @param video
+	 * @param isSaveRecord 1:需要保存  0不需要保存 或者为空的时候
+	 * @param page
+	 * @return com.imooc.utils.IMoocJSONResult
+	 */
 	@PostMapping(value="/showAll")
-	public IMoocJSONResult showAll(Integer page) throws Exception {
+	public IMoocJSONResult showAll(@RequestBody  Videos video, Integer isSaveRecord, Integer page, Integer pageSize) throws Exception {
 
-		if (page == null ){
+		if (page == null) {
 			page = 1;
 		}
-		PagedResult result = videoService.getAllVideos(page, PAGE_SIZE);
+
+		if (pageSize == null) {
+			pageSize = PAGE_SIZE;
+		}
+
+		PagedResult result = videoService.getAllVideos(video, isSaveRecord, page, pageSize);
 		return IMoocJSONResult.ok(result);
+	}
+
+	/**
+	 * 热搜词
+	 */
+	@PostMapping(value="/hot")
+	public IMoocJSONResult hot() throws Exception {
+		return IMoocJSONResult.ok(videoService.getHotwords());
 	}
 }

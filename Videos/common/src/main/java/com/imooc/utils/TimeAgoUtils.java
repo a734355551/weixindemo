@@ -71,7 +71,13 @@ public class TimeAgoUtils {
 		return toMonths(date) / 365L;
 	}
 
+	public static long getUnixTimestamp() {
+		long nowTimeStamp = System.currentTimeMillis() / 1000;
+		return nowTimeStamp;
+	}
 	public static void main(String[] args) throws Exception {
+		long timestamp = TimeAgoUtils.getUnixTimestamp();
+		System.out.println(Integer.parseInt(String.valueOf(timestamp)));
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:m:s");
 		Date date = format.parse("2018-05-01 18:35:35");
 		System.out.println(format(date));
